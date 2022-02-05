@@ -219,9 +219,6 @@ def main(win, width):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-            
-            if started:
-                continue
 
             if pygame.mouse.get_pressed()[0]:
                 pos = pygame.mouse.get_pos()
